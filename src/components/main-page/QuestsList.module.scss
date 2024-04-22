@@ -1,0 +1,35 @@
+.quests {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 9vw;
+    .questPic {
+        width: 344px;
+        height: 232px;
+        flex-shrink: 0;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        .questTitle {
+            color: #FFF;
+            /* h/h2 - card */
+            font-family: Raleway;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%; /* 28.8px */
+            margin-bottom: 0;
+        }
+        .questInfo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 50%;
+            .questInfoText {
+                color: whitesmoke;
+            }
+        }
+    }
+}

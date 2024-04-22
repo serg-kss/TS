@@ -1,0 +1,21 @@
+.contactsInfo{
+    display: flex;
+    flex-direction: column;
+    .contactsInfoTitle {
+        color: var(--Base-text-White, #E6E6E6);
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; 
+        letter-spacing: -0.28px;
+    }
+    .contactsInfoText {
+        color: var(--Base-text-White, #E6E6E6);
+        font-family: Raleway;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; 
+    }
+}

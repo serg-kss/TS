@@ -1,0 +1,73 @@
+.quest {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    .questTitleContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 50vw;  
+        .questLevel {
+            color: #F2890F;
+            /* text/Label */
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 144%; /* 20.16px */
+        }
+        .questTitle {
+            margin: 0;
+            padding: 0;
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 92px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 95%; /* 87.4px */
+            letter-spacing: -2.76px;
+        }        
+    }
+    .questInfoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 50vw;
+        .questDescription {
+            color: var(--Base-text-White, #E6E6E6);
+            /* text / Regular */
+            font-family: Raleway;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; /* 22.5px */
+            padding-left: 3vw;
+            width: 30vw;
+        }
+        .questBtn {
+            width: 185px;
+            height: 47px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background: #FEC432;
+            box-shadow: 0px 2px 30px 0px rgba(254, 196, 50, 0.50);
+            margin-left: 3vw;
+            border: none;
+            span {
+                color: #270B00;
+                text-align: center;
+                font-family: Raleway;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.48px;
+            }
+        }
+    }
+}

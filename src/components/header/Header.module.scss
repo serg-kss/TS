@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+    position: absolute;
+    .logoContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+    }
+    .navigation {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+        .navigationList {
+            list-style-type: none;
+            .navigationLink{
+                text-decoration: none;
+                color: #F0F0F0;
+                /* text/navigation - header */
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.42px;
+            }
+            .navigationLink:hover {
+            color: #F2890F;
+            }
+        }
+    }
+    .phone {
+        width: 10%;
+        color: #F0F0F0;
+        /* text/navigation - header */
+        font-family: Raleway;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.42px;
+    }
+}

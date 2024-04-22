@@ -1,0 +1,30 @@
+.errorPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #141414 0%, #1F1D1D 100%);
+    .errorPageContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        .errorPageText {
+            color: #F2890F;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 144%; /* 20.16px */
+        }
+        .errorPageTitle {
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 110%; /* 70.4px */
+        }
+    }
+}

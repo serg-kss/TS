@@ -1,0 +1,62 @@
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 15vh;
+    background: linear-gradient(0deg, #141414 0%, #1F1D1D 100%);
+    .titleContainer {
+        width: 90vw;
+        align-items: start;
+        justify-content: start;
+        padding-left: 10vw;
+        .titleLocation {
+            color: #F2890F;
+            font-family: Raleway;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 144%; /* 20.16px */
+        }
+        .titleQuest {
+            color: #FFF;
+            /* h/h1 */
+            font-family: Raleway;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 110%; /* 70.4px */
+            margin-top: 0;
+        }
+    }
+    .questsList {
+        display: flex;
+        padding: 0;
+        width: 75vw;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10vw;
+        li {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            width: 10vw;
+            .questLink{
+                text-decoration: none;
+                color: var(--Base-text-White, #E6E6E6);
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%; /* 19.6px */
+                letter-spacing: -0.28px;
+                padding-left: 5%;
+            }
+        }
+        li :hover {
+            cursor: pointer;
+            color: #F2890F;
+        }
+    }
+}

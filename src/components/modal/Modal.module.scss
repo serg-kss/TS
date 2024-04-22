@@ -1,0 +1,41 @@
+.modalBackGround {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(28, 27, 27, 0.60);
+    .modal {
+        width: 480px;
+        height: 568px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background: linear-gradient(0deg, #141414 0%, #1F1D1D 100%);
+        .modalCloseContainer{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            .modalClose{
+                padding-top: 3vh;
+                padding-right: 1vw;
+            }
+            .modalClose:hover {
+                fill: #FEC432;
+                stroke: #FEC432;
+            }
+        }
+        .modalTitle {
+            color: var(--Base-White, #FFF);
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Raleway;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 120%; /* 48px */
+            padding-left: 3vw;
+        }
+    }
+}
